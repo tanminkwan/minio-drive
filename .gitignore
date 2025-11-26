@@ -1,0 +1,39 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.msi
+
+# Distribution folder (binary releases)
+dist/
+
+# Config files with secrets
+config.json
+rclone.conf
+
+# Test binary
+*.test
+
+# Go workspace
+go.work
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.zip
+*.part1
+*.part2
+
+# Local scripts
+install_go.bat
